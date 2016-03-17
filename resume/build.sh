@@ -1,6 +1,6 @@
 pdflatex source.tex
 
-mv source.pdf ../dist/resume.pdf
+mv source.pdf ../dist/andersonResume.pdf
 
 rm source.aux
 rm source.log

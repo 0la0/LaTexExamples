@@ -1,0 +1,101 @@
+\documentclass{structure} % Use the custom structure.cls style
+\usepackage[hidelinks]{hyperref}
+\usepackage[left=0.75in,top=-0.15in,right=0.75in,bottom=0.0in]{geometry} % Document margins
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	HEADER SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+\begin{tabular}{ll}
+  {\huge {\bf Name Name}} & ADDRESS.HERE\\
+  {\it EMAIL.ADDRESS.HERE} & City, ST 012345\\
+  {\it \href{http://www.example.com}{example.com}} & PHONE.NUMBER.HERE
+\end{tabular}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Example University}, {\it City, ST} \hfill { 1872 - 1877} \\
+B.S. Research \\
+Minor in Basket Weaving, {\it GPA: 2.01}
+
+{\bf Example University}, {\it City, ST} \hfill { 1878 - 1881} \\
+B.A. Research \\
+Minor in Basket Weaving, {\it GPA: 2.01}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Job Title}{1888 - 1882}{Company}{City, ST}
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
+\item Ut enim ad minim veniam, quis nostrud exercitation
+\item Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Job Title}{1888 - 1882}{Company}{City, ST}
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
+\item Ut enim ad minim veniam, quis nostrud exercitation
+\item Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Job Title}{1888 - 1882}{Company}{City, ST}
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
+\item Ut enim ad minim veniam, quis nostrud exercitation
+\item Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Job Title}{1888 - 1882}{Company}{City, ST}
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
+\item Ut enim ad minim veniam, quis nostrud exercitation
+\item Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNOLOGIES SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{A list of something else}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Very Strong & English, Finnish, Spanish\\
+Conversant & Russian, Japanese, Australian English
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Interests}
+
+
+\begin{tabular}{@{\hspace{0ex}}l }
+Video Games, Board Games, Card Games, Puzzle Games
+\end{tabular}
+
+
+\end{rSection}
+
+
+\end{document}

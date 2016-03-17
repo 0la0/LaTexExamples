@@ -1,7 +1,8 @@
-## Personal Resume
+## LaTex Examples
 ----
+Basic examples for quickly starting documents.
 
 ### Build Process
 
-* Install a LaTex and PdfLatex (Such as BasicTeX for Mac OS X)
-* Run build.sh in the source directory
+* Install LaTex and PdfLatex (Such as BasicTeX for Mac OS X)
+* Run build.sh or pdflatex src.tex
