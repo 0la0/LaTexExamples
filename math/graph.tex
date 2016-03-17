@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{tikz}
+\begin{document}
+
+
+\begin{tikzpicture}
+  \draw[->] (-3,0) -- (4.2,0) node[right] {$x$};
+  \draw[->] (0,-3) -- (0,4.2) node[above] {$y$};
+  \draw[scale=0.5,domain=-3:3,smooth,variable=\x,blue] plot ({\x},{\x*\x});
+  %\draw[scale=0.5,domain=-3:3,smooth,variable=\y,red]  plot ({\y*\y},{\y});
+\end{tikzpicture}
+
+\begin{tikzpicture}[scale=.5]
+    \draw[->] (-10, 0) -- (10, 0) node[right] {$x$};
+    \draw[->] (0, -10) -- (0, 10) node[above] {$y$};
+    \draw[color=red, domain=-10:-0.1,samples=200] plot[id=x1] function{1/x};
+    \draw[color=red, domain=0.1:10,samples=200] plot[id=x2] function{1/x} node[below right = 6pt] { $f(x) =1/x$ };
+\end{tikzpicture}
+
+\end{document}
