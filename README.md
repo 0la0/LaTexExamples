@@ -4,5 +4,9 @@ Basic examples for quickly starting documents.
 
 ### Build Process
 
-* Install LaTex and PdfLatex (Such as BasicTeX for Mac OS X)
-* Run build.sh or pdflatex src.tex
+* Install LaTex (Such as BasicTeX for Mac OS X)
+* Generate documents by running ```pdflatex ./fileName.tex``` or by creating a shell script for more complex examples.
+
+### Notes
+
+Package installation: ```tlmgr install packageName```

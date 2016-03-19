@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pdflatex letter.tex
 
 mv letter.pdf ../dist/letter.pdf

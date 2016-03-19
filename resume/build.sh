@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pdflatex source.tex
 
 mv source.pdf ../dist/andersonResume.pdf

@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+\usepackage{tikz}
+\begin{document}
+
+
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines = left,
+    xlabel = $x$,
+    ylabel = {$f(x)$},
+]
+%Below the red parabola is defined
+\addplot [
+    domain=-10:10,
+    samples=100,
+    color=black,
+]
+{1 / (1 + exp(-x))};
+
+\end{axis}
+\end{tikzpicture}
+
+This is a sigmoid function.  This is the function \(f(x) = \frac{1}{1 + e^{-x}}\) written inline.
+
+This is the function written on its own line:
+
+\begin{equation}
+f(x) = \frac{1}{1 + e^{-x}}
+\end{equation}
+
+\end{document}
